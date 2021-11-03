@@ -1,0 +1,46 @@
+1. pwd  -где я
+2. mkdir "test folder" создание папки "test folder"
+3. cd "test folder" зайти в папку test folder
+4. mkdir bob-4 bob-5 bob-6 создание папок bob-4 bob-5 bob-6
+5. cd bob-4 переход в папку bob-4
+6.touch lal.txt lol.txt lul.txt rom_1.json rom_2.json создание трех файлов .txt и двух файлов .json
+7.  mkdir scum-A shum-b scum-c создание трех папок scum-A shum-b scum-c
+8. $ ll содержимое папки bob-4
+total 0
+-rw-r--r-- 1 Лёха 197121 0 Oct 30 17:01 lal.txt
+-rw-r--r-- 1 Лёха 197121 0 Oct 30 17:01 lol.txt
+-rw-r--r-- 1 Лёха 197121 0 Oct 30 17:01 lul.txt
+-rw-r--r-- 1 Лёха 197121 0 Oct 30 17:01 rom_1.json
+-rw-r--r-- 1 Лёха 197121 0 Oct 30 17:01 rom_2.json
+drwxr-xr-x 1 Лёха 197121 0 Oct 30 16:53 scum-A/
+drwxr-xr-x 1 Лёха 197121 0 Oct 30 16:53 scum-c/  
+drwxr-xr-x 1 Лёха 197121 0 Oct 30 16:53 scum-b/
+
+9. $ vim lal.txt открыть файл lal.txt
+10. i пишем текст в редакторе vim
+11 esc:wq выйти и сохранить файл
+12.  $ cd .. переход на уровень выше
+13. mv rom_1.json rom_2.json scum-b перенос двух файлов папку scum-b
+       $ ll
+total 1
+-rw-r--r-- 1 Лёха 197121 32 Oct 30 17:14 lal.txt
+-rw-r--r-- 1 Лёха 197121  0 Oct 30 17:01 lol.txt
+-rw-r--r-- 1 Лёха 197121  0 Oct 30 17:01 lul.txt
+drwxr-xr-x 1 Лёха 197121  0 Oct 30 16:53 scum-A/
+drwxr-xr-x 1 Лёха 197121  0 Oct 30 17:51 scum-b/
+drwxr-xr-x 1 Лёха 197121  0 Oct 30 16:53 scum-c/
+14.  cp lol.txt lul.txt scum-c копмрование двух файлов в папку scum-c
+15. find /c/git3/ -name lol.txt поиск файла по имени
+16. $ tail -f "lal.txt" просмотр файла в реальном времени
+     привет! все супер!
+17. head lal.txt выводит первые 10 строк 
+      head -n 2 lal.txt выводит первые две строки
+18. tail -n 3 lal.txt выводит последние 3 строки
+19. less lal.txt просмотр длинных файлов
+20. $ date  просмотр даты/время
+    Sat Oct 30 20:10:08     2021
+Задание * 1 HTTP Put запрос на сервер по ссылке
+$ curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   185  100   185    0     0    250      0 --:--:-- --:--:-- --:--:--   250{"age":"32","family":{"children":[["Alex",24],["Kate",12]],"pets":{"cat":{"age":3,"name":"Sunny"},"dog":{"age":4,"name":"Luky"}},"u_salary_1_5_year":4000},"name":"Vadim","salary":1000}
