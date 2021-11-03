@@ -1,0 +1,11 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<questionaire>
+	<person>
+		<name title="Vassilyeva"/>
+		<surname title="Nastya"/>
+		<age number=32/>
+		<pet title="humster" count=1/>
+		<salary number=1000$/>
+	</person>
+</questionaire>
