@@ -1,0 +1,12 @@
+
+Отобразилось в консоле после запуска скрипта:
+$ ./script.sh
+mkdir: cannot create directory ‘bob-4’: File exists
+mkdir: cannot create directory ‘bob-5’: File exists
+mkdir: cannot create directory ‘bob-6’: File exists
+mkdir: cannot create directory ‘scum-A’: File exists
+mkdir: cannot create directory ‘sсum-b’: File exists
+mkdir: cannot create directory ‘scum-c’: File exists
+lal.txt  lul.txt     rom_2.json  scum-b  sсum-b
+lol.txt  rom_1.json  scum-A      scum-c
+completed
