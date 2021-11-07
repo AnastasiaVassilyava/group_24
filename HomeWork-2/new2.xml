@@ -8,4 +8,12 @@
 		<pet title="humster" count=1/>
 		<salary number=1000$/>
 	</person>
+	<additional information>
+		<favorite movie="titanic"/>
+		<favorite series="olga"/>
+		<favotite food="manty"/>
+		<favorite seasons="summer"/>
+		<country to vizit="Brazil"/>
+	</additional information>	
+		
 </questionaire>
