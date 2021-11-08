@@ -1,0 +1,10 @@
+ID
+Project
+Reporter 
+Summary
+Platform
+Priority
+Severity
+Steps to reproduce
+Status
+Attachments
