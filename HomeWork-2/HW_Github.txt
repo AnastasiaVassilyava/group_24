@@ -1,19 +1,35 @@
 GitHub. HW_1
 1. На локальном репозитории сделать ветки для:
-- Postman
-- Jmeter
-- CheckLists
-- Bag Reports
-- SQL
-- Charles
-- Mobile testing
+- Postman			git branch Postman
+- Jmeter			git branch Jmeter
+- CheckLists		git branch CheckLists
+- Bag Reports		git branch Bag_Reports
+- SQL				git branch SQL
+- Charles			git branch Charles
+- Mobile testing	git branch Mobile_testing
 
-2. Запушить все ветки на внешний репозиторий
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-4. Запушить структуру багрепорта на внешний репозиторий
-5. Вмержить ветку Bag Reports в Main
-6. Запушить main на внешний репозиторий.
-7. В ветке CheckLists набросать структуру чек листа.
-8. Запушить структуру на внешний репозиторий
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-10. Синхронизировать Внешнюю и Локальную ветки Main
+2. Запушить все ветки на внешний репозиторий	git push origin --all
+
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта		vim Bag_Reports, создать файл в Vim, выйти из редактора и сохранить esc :w bag_report.txt 
+ 	git add "bag_report.txt"	git commit -m "new file"
+
+4. Запушить структуру багрепорта на внешний репозиторий git push
+
+5. Вмержить ветку Bag Reports в Main	git merge Bag_Reports
+
+6. Запушить main на внешний репозиторий.	git push
+
+7. В ветке CheckLists набросать структуру чек листа.	vim CheckLists, создать файл в Vim, выйти из редактора и сохранить esc :w checklist.txt
+	git add checklist.txt	git commit -m "new text"
+
+8. Запушить структуру на внешний репозиторий	git push -u origin CheckLists
+ 
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  	Merge Pull request "comment"
+
+10. Синхронизировать Внешнюю и Локальную ветки Main		git pull
+Updating 20058bc..a61e3b4
+Fast-forward
+ HomeWork-2/checklist.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+ create mode 100644 HomeWork-2/checklist.txt
+
