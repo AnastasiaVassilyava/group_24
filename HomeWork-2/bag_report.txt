@@ -7,4 +7,6 @@ Priority
 Severity
 Steps to reproduce
 Status
+Actual result
+Expected result
 Attachments
