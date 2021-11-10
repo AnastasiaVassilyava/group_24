@@ -1,18 +1,13 @@
 {         
 
-	"name":"Nasya"
-	"surname":"Vassilyeva"
-	"age":"32"
-	"pet":"one hamster"
-	"salary":"1000"
-
-
-}
-
-{
-	"favorite movie":"titanic"
-	"favorite series":"olga"
-	"favorite food":"manty"
-	"favorite season":"summer"
+	"name":"Nasya",
+	"surname":"Vassilyeva",
+	"age":"32",
+	"pet":"one_hamster",
+	"salary":"1000$",
+	"favorite movie":"titanic",
+	"favorite series":"olga",
+	"favorite food":"manty",
+	"favorite season":"summer",
 	"country to vizit":"Brazil"
 }	
